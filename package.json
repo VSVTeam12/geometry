@@ -6,7 +6,7 @@
 
   "description": "",
 
-  "main": "Bot.js",
+  "main": "bot.js",
 
   "scripts": {
 
