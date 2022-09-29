@@ -14,7 +14,7 @@ const rateLimit = require('telegraf-ratelimit');
 
 var bot_token = '5682410681:AAErEQp7jznsbkfwMtga4_xaVBS3CaZY1cA'; //YOUR BOT TOKEN HERE
 
-var bot_name = 'Best ast bot'; // Bot Name
+var bot_name = 'Bestastbot'; // Bot Name
 
 const bot = new Telegraf(bot_token);
 
