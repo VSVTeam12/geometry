@@ -12,9 +12,9 @@ const stage = new Stage()
 
 const rateLimit = require('telegraf-ratelimit');
 
-var bot_token = '5677138885:AAFBaVhg72c6tBjFEUhw4aCxCRPP_ybk4jg'; //YOUR BOT TOKEN HERE
+var bot_token = '5735875289:AAHR58PYlgFf69z-PMe6qxnaz85aJyfS8PE'; //YOUR BOT TOKEN HERE
 
-var bot_name = 'Bestastbot'; // Bot Name
+var bot_name = 'Readytolootbot'; // Bot Name
 
 const bot = new Telegraf(bot_token);
 
@@ -340,7 +340,7 @@ bot.on("contact", async(ctx)=> {
 
                 ctx.replyWithMarkdown(
 
-                    '*🏡 Welcome To Main Menu*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                    '*🏡 Welcome @Verifiedbotsofficial To Main Menu*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                 )
 
