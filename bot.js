@@ -340,7 +340,7 @@ bot.on("contact", async(ctx)=> {
 
                 ctx.replyWithMarkdown(
 
-                    '*🏡 Welcome @Verifiedbotsofficial To Main Menu*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                    '*🏡 Welcome To Main Menu Join 🔥 @Verifiedbotsofficial For more auto payment Bots*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                 )
 
@@ -938,7 +938,7 @@ bot.hears('📊 Statistics', async (ctx) => {
 
                     ctx.reply(
 
-                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : 0 ' + currency + '\n\n💡 Total Users: ' + members.length + ' Users\n\n✅ Created By : <a href="tg://user?id=132512">OP</a></b>' , { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : 0 ' + currency + '\n\n💡 Total Users: ' + members.length + ' Users\n\n✅ Created By : <a href="tg://user?id=5169514861">vsvteam</a></b>' , { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                     )
 
@@ -950,7 +950,8 @@ bot.hears('📊 Statistics', async (ctx) => {
 
                     ctx.reply(
 
-                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : ' + payout + ' ' + currency + '\n\n💡 Total Users: ' + memb + ' Users\n\n✅ Created By : <a href="tg://user?id=132792">OP</a></b>', { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                        '<b>📊 Bot Live Stats 📊\n\n📤 Total Payouts : ' + payout + ' ' + currency + '\n\n💡 Total Users: ' + memb + ' Users\n\n✅ Created By : <a href="tg://user?id=5169514861">vsvteam
+                        </a></b>', { parse_mode: 'html', reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
                     )
 
